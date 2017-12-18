@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  background: beige; }
+  .App .container {
+    padding: 2em; }
+  .App .box {
+    height: 500px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+    z-index: 200;
+    overflow-y: auto; }
+    .App .box .btn-success {
+      width: 10em;
+      border-radius: 0px;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+    .App .box .btn-danger {
+      width: auto !important;
+      border-radius: 0px;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+    .App .box h3 {
+      text-transform: uppercase;
+      text-decoration: underline !important; }
+    .App .box .alert-success {
+      width: 100%; }
+      .App .box .alert-success .remove {
+        float: right;
+        padding: 0.2em;
+        color: red;
+        border: 1px solid gray;
+        border-radius: 4px;
+        cursor: pointer; }
+    .App .box .form-inline .wrapper {
+      padding: 1em;
+      display: flex; }
+      .App .box .form-inline .wrapper label {
+        width: 30%;
+        text-align: left; }
+      .App .box .form-inline .wrapper .input {
+        width: 70%; }
+        .App .box .form-inline .wrapper .input .form-control {
+          width: -webkit-fill-available;
+          width: -moz-available; }
+    .App .box .form-inline .object {
+      padding: 0em; }
+    .App .box #result {
+      width: 100%; }
+  .App h1 {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .App .panel-body {
+    background: lightgray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 3px 3px rgba(0, 0, 0, 0.23);
+    z-index: 100; }
+  .App .accor {
+    margin: 10px;
+    transition: 0.4s; }
+    .App .accor .head-success {
+      background: green;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px; }
+    .App .accor .head-failure {
+      background: red;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px; }
+    .App .accor .body {
+      background: darkgray;
+      padding: 0 20px;
+      max-height: 0;
+      overflow: hidden;
+      transition: 200ms ease-in-out;
+      border-radius: 5px; }
+      .App .accor .body .resultText {
+        float: left;
+        font-weight: bold; }
+    .App .accor.active > .body {
+      padding: 10px 20px;
+      max-height: 600px; }
+    .App .accor .div {
+      background: azure; }
+    .App .accor .resultDiv {
+      margin-left: -15px;
+      margin-right: -15px;
+      margin-top: 1.5em; }
+      .App .accor .resultDiv:before, .App .accor .resultDiv:after {
+        content: '';
+        display: table; }
+      .App .accor .resultDiv:after {
+        clear: both; }
+      .App .accor .resultDiv .inner {
+        width: 40%; }
+      .App .accor .resultDiv .left {
+        float: left; }
+        .App .accor .resultDiv .left h4 {
+          color: white; }
+      .App .accor .resultDiv .right {
+        float: right; }
+        .App .accor .resultDiv .right h4 {
+          color: white; }
+      .App .accor .resultDiv .left-true {
+        background: azure;
+        float: left; }
+        .App .accor .resultDiv .left-true h4 {
+          margin-left: 15px; }
+      .App .accor .resultDiv .right-true {
+        background: azure;
+        float: right; }
+        .App .accor .resultDiv .right-true h4 {
+          margin-left: 15px; }
+    .App .accor .rule {
+      color: white; }
+    .App .accor .left-id {
+      float: left; }
